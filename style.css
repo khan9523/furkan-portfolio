@@ -531,11 +531,6 @@ main {
   .project-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
-  .featured-card,
-  .portal-card {
-    grid-column: span 2;
-  }
 }
 
 @media (min-width: 980px) {
