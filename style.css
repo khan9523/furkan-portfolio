@@ -318,8 +318,11 @@ main {
 }
 
 .feature-icon {
-  min-width: 2.25rem;
-  text-align: center;
+  width: 2.6rem;
+  flex: 0 0 2.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 0.08rem;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.22);
