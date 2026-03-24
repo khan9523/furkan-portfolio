@@ -401,6 +401,16 @@ main {
   pointer-events: none;
 }
 
+.portal-card {
+  border-color: rgba(45, 212, 191, 0.45);
+  background: linear-gradient(145deg, rgba(45, 212, 191, 0.12), rgba(14, 22, 37, 0.86));
+}
+
+.portal-card .badge {
+  border-color: rgba(45, 212, 191, 0.5);
+  background: rgba(45, 212, 191, 0.16);
+}
+
 .badge {
   display: inline-block;
   margin-bottom: 0.5rem;
@@ -522,7 +532,8 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .featured-card {
+  .featured-card,
+  .portal-card {
     grid-column: span 2;
   }
 }
