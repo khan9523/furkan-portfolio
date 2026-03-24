@@ -461,6 +461,22 @@ main {
   line-height: 1.55;
 }
 
+.resume-actions {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+
+.resume-actions p {
+  max-width: 64ch;
+}
+
+.resume-actions .btn {
+  min-width: 190px;
+}
+
 .now-list {
   margin: 0.8rem 0 0;
   padding-left: 1.2rem;
@@ -535,6 +551,13 @@ main {
   .content-grid,
   .skills-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .resume-actions {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
   }
 }
 
